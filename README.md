@@ -1,8 +1,8 @@
-## Azure Machine Learning 실습 연습(v2)
+## Azure Machine Learning에 대한 실습 연습(v2)
 
-이 리포지토리에는 Azure Machine Learning을 탐색하는 Microsoft 학습 경로에 대한 실습 랩 연습이 포함되어 있습니다. 학습 경로는 Microsoft Learn의 자기 주도형 모듈로 구성됩니다. 학습 자료와 함께 제공되는 이러한 랩에서는 학습 자료에 설명되어 있는 기술을 사용하여 연습을 진행할 수 있습니다.
+이 리포지토리에는 Azure Machine Learning을 탐색하는 Microsoft Learning 경로에 대한 실습 랩 연습이 포함되어 있습니다. 학습 경로는 Microsoft Learn의 자체 진행 모듈로 구성됩니다. 랩은 학습 자료와 함께 제공되고 설명된 기술을 사용하여 연습할 수 있도록 설계되었습니다.
 
-[https://microsoftlearning.github.io/mslearn-azure-ml/](https://microsoftlearning.github.io/mslearn-azure-ml/) 에서 랩 연습에 대한 지침을 볼 수 있습니다.
+[https://microsoftlearning.github.io/mslearn-azure-ml/](https://microsoftlearning.github.io/mslearn-azure-ml/)에서 랩 연습에 대한 지침을 볼 수 있습니다.
 
 ## 우리가 하는 일
 
@@ -12,6 +12,6 @@
 
 ## 기고하려면 어떻게 해야 하나요?
 
-- 누구나 GitHub 리포지토리의 코드 또는 콘텐츠에 끌어오기 요청을 제출할 수 있으며, Microsoft 및 과정 작성자는 필요에 따라 콘텐츠 및 랩 코드 변경을 심사하고 포함합니다.
+- 누구나 GitHub 리포지토리의 코드 또는 콘텐츠에 끌어오기 요청을 제출할 수 있으며, Microsoft와 과정 작성자는 필요에 따라 콘텐츠 및 랩 코드 변경 내용을 심사하고 포함합니다.
 
-- 버그, 변경 내용, 개선 사항 및 아이디어를 제출할 수 있습니다.  우리보다 먼저 새 Azure 기능을 찾으셨나요?  새 데모를 제출하세요!
+- 버그, 변경 내용, 개선 사항 및 아이디어를 제출할 수 있습니다.  우리보다 먼저 새 Azure 기능을 찾으셨나요?  새로운 데모를 제출해 주세요!
