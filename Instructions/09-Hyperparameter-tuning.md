@@ -15,7 +15,7 @@ lab:
 
 ## Azure Machine Learning 작업 영역 프로비저닝
 
-Azure Machine Learning 작업 영역은 모델을 학습하고 관리하는 데 필요한 모든 리소스 및 자산을 관리하기 위한 중심지를 제공합니다.** Studio, Python SDK, Azure CLI를 통해 Azure Machine Learning 작업 영역과 상호 작용할 수 있습니다.
+Azure Machine Learning 작업 영역은 모델을 학습하고 관리하는 데 필요한 모든 리소스 및 자산을 관리하기 위한 중심지를 제공합니다.** 스튜디오, Python SDK, Azure CLI를 통해 Azure Machine Learning 작업 영역과 상호 작용할 수 있습니다.
 
 Azure CLI를 사용하여 작업 영역과 필요한 컴퓨팅을 프로비전하고, Python SDK를 사용하여 명령 작업을 실행합니다.
 
