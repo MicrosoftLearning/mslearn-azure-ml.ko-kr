@@ -117,6 +117,7 @@ Notebook을 스크립트로 변환한 후 이를 더욱 구체화할 수 있습�
 1. 터미널에서 다음 명령을 실행합니다.
 
     ```
+    cd azure-ml-labs/Labs/08/src/
     python train-model-parameters.py --training_data diabetes.csv
     ```
 
