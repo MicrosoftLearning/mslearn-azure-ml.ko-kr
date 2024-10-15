@@ -90,6 +90,13 @@ Azure Machine Learning 작업 영역, 컴퓨팅 인스턴스 및 컴퓨팅 클�
 1. **터미널에 스크립트를 저장하고 실행**하려면 Notebook 상단에 있는 &#9655;&#9655; 아이콘을 선택합니다.
 1. 스크립트는 **python train-classification-model.py** 명령으로 시작되며 출력은 명령 아래에 표시되어야 합니다.
 
+   > **참고:** 스크립트가 libstdc++6에 대한 ImportError를 반환하는 경우 스크립트를 다시 실행하기 전에 터미널에서 다음 명령을 실행합니다.
+   > ```bash
+   > sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+   > sudo apt-get update
+   > sudo apt-get upgrade libstdc++6
+   > ```
+
 ## 터미널로 스크립트 테스트
 
 Notebook을 스크립트로 변환한 후 이를 더욱 구체화할 수 있습니다. 스크립트 작업 시 가장 좋은 방법 중 하나는 함수를 사용하는 것입니다. 스크립트가 함수로 구성되면 코드를 단위 테스트하기가 더 쉽습니다. 함수를 사용하면 스크립트는 코드 블록으로 구성되며, 각 블록은 특정 작업을 수행합니다.
