@@ -1,3 +1,11 @@
+#README
+
+We've turned off the ability to report issues directly on this repo and do not monitor PRs.
+
+Provide feedback here: https://aka.ms/provide-feedback
+
+Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
+
 ## Azure Machine Learning(v2)에 대한 실습 연습
 
 이 리포지토리에는 Azure Machine Learning을 탐색하는 Microsoft Learn 경로에 대한 실습 랩 연습이 포함되어 있습니다. 학습 경로는 Microsoft Learn의 자습형 모듈로 구성됩니다. 학습 자료와 함께 제공되는 이러한 랩에서는 학습 자료에 설명되어 있는 기술을 사용하여 연습을 진행할 수 있습니다.
