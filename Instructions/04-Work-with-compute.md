@@ -54,6 +54,26 @@ Azure Machine Learning 작업 영역을 만들려면 Azure CLI를 사용합니�
 
 1. 명령이 완료될 때까지 기다립니다. 일반적으로 5~10분 정도 걸립니다.
 
+    <details>  
+    <summary><b>문제 해결 팁</b>: 작업 영역 만들기 오류</summary><br>
+    <p>CLI를 통해 작업 영역을 만들 때 오류가 발생하는 경우 리소스를 수동으로 프로비전해야 합니다.</p>
+    <ol>
+        <li>Azure Portal 홈페이지에서 <b>+리소스 만들기</b>를 선택합니다.</li>
+        <li><i>기계 학습</i>을 검색한 다음 <b>Azure Machine Learning</b>을 선택합니다. <b>만들기</b>를 실행합니다.</li>
+        <li>다음 설정을 사용하여 새 Azure Machine Learning 리소스를 만듭니다. <ul>
+                <li><b>구독</b>: ‘Azure 구독’</li>
+                <li><b>리소스 그룹</b>: rg-dp100-labs</li>
+                <li><b>작업 영역 이름</b>: mlw-dp100-labs</li>
+                <li><b>지역</b>: ‘지리적으로 가장 가까운 지역 선택’<i></i></li>
+                <li><b>스토리지 계정</b>: <i>‘작업 영역에 대해 만들 새로운 기본 스토리지 계정’</i></li>
+                <li><b>키 자격 증명 모음</b>: ‘작업 영역에 대해 만들 새로운 기본 키 자격 증명 모음’</li>
+                <li><b>Application insights</b>: ‘작업 영역에 대해 만들 새로운 기본 Application Insights 리소스’</li>
+                <li><b>컨테이너 레지스트리</b>: 없음(‘처음으로 컨테이너에 모델을 배포할 때 자동으로 만들어짐’)</li>
+            </ul>
+        <li><b>검토 + 만들기</b>를 선택하고 작업 영역과 관련 리소스가 생성될 때까지 기다립니다(일반적으로 5분 정도 소요됨).</li>
+    </ol>
+    </details>
+
 ## 컴퓨팅 설정 스크립트 만들기
 
 Azure Machine Learning 작업 영역 내에서 Notebooks를 실행하려면 컴퓨팅 인스턴스가 필요합니다. 설정 스크립트를 사용하여 만들 때 컴퓨팅 인스턴스를 구성할 수 있습니다.
