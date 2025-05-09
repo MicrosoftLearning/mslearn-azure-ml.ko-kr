@@ -109,7 +109,7 @@ Azure Machine Learning 작업 영역 및 컴퓨팅 인스턴스를 만들려면 
 
     > **인증**을 선택하고 인증을 요청하는 알림이 표시되면 필요한 단계를 따릅니다.
 
-1. Notebook이 **Python 3.8 - AzureML** 커널을 사용하는지 확인합니다.
+1. Notebook이 **Python 3.10 - AzureML** 커널을 사용하는지 확인합니다.
 1. Notebook의 모든 셀을 실행합니다.
 1. 모델을 학습할 때마다 만들어지는 새 작업을 검토합니다.
 
