@@ -87,8 +87,7 @@ Azure Machine Learning 작업 영역 및 컴퓨팅 인스턴스를 만들려면 
 
     ```
     pip uninstall azure-ai-ml
-    pip install azure-ai-ml
-    pip install mlflow
+    pip install azure-ai-ml==1.27.1 mlflow==2.22.0 azureml-core==1.51.0 azureml-defaults==1.51.0 azureml-mlflow==1.51.0 azureml-telemetry==1.51.0 scikit-learn==1.5.1
     ```
 
     > 패키지를 찾아서 제거할 수 없다는 오류 메시지는 무시합니다.
